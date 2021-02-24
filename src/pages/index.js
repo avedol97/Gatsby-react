@@ -1,7 +1,9 @@
 import React from "react"
 import styled from 'styled-components'
+import Image from 'gatsby-image'
 import Button from "../components/Button/button";
-import { graphql } from "gatsby"
+import {graphql} from "gatsby"
+import Post from "../components/Post/Post";
 
 const ContentWrapper = styled.div`
     width: 65%;
@@ -26,9 +28,9 @@ const ContentWrapper = styled.div`
     
 `;
 
-const ImageWrapper = styled.img`
-  position: absolute;
-  top:0;
+const StyledImage= styled(Image)`
+  position: absolute !important;
+  top: 0;
   right: 0;
   width: 35%;
   height: 100vh;
@@ -38,20 +40,25 @@ const ImageWrapper = styled.img`
 const IndexPage = ({data}) => (
     <>
         <ContentWrapper>
-        <h1>Your new space</h1>
-        <p>While artist work from real to the abstract, architects must work from the abstract to the real.</p>
-    <Button>estimate project</Button>
+            <Post/>
+            <h1>Your new space</h1>
+            <p>While artist work from real to the abstract, architects must work from the abstract to the real.</p>
+            <Button>estimate project</Button>
         </ContentWrapper>
-        <ImageWrapper src={data.file.publicURL}  alt="problem"/>
+        <StyledImage fluid={data.file.childImageSharp.fluid} />
         </>
 )
 
 export const query = graphql`
-  {
-    file(name: {eq: "hero"}) {
-      publicURL
+{
+    file(name: {eq: "hero"}){
+        childImageSharp{
+            fluid(maxWidth: 1000, maxHeight:1600, quality:90){
+              ...GatsbyImageSharpFluid_tracedSVG
+            }
+        }
     }
-  }
+}
   `
 
 

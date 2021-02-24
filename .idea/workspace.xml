@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18d73d48-de59-4259-a126-f2fd51ff8eb2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/images/hero.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Button/button.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/hero.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Post/Post.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/contact.mdx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/contact-old.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +48,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/pages" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -54,6 +57,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\PROJEKT 2020\ReactFerie\Gatsby\hatta-website\src\pages" />
       <recent name="D:\PROJEKT 2020\ReactFerie\Gatsby\hatta-website\src\assets\images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -63,15 +67,13 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -88,7 +90,9 @@
       <workItem from="1613910389671" duration="1584000" />
       <workItem from="1614011564702" duration="3944000" />
       <workItem from="1614015831062" duration="7249000" />
-      <workItem from="1614103579213" duration="8286000" />
+      <workItem from="1614103579213" duration="9729000" />
+      <workItem from="1614184233587" duration="2912000" />
+      <workItem from="1614196744931" duration="2961000" />
     </task>
     <servers />
   </component>
