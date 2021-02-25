@@ -1,5 +1,5 @@
 import React from "react"
-import Navigation from "../components/navigation/navigation";
+import Navigation from "../components/Navigation/navigation";
 import GlobalStyle from "../assets/styles/globalStyles";
 
 const MainLayout = ({children}) => (

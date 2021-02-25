@@ -2,11 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18d73d48-de59-4259-a126-f2fd51ff8eb2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/data/articles/01-comfortable-bedroom.mdx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/articles/02-dine-and-design.mdx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/blog/colorful-ideas.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/blog/comfortable-bedroom.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/blog/dine-and-design.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/blog/table-inspirations.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/blog/tidy-or-messy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/blog/where-do-you-keep-it.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ArticlePreview/ArticlePreview.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/PageInfo/PageInfo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/articles/03-tidy-or-messy.mdx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/articles/04-colorful-ideas.mdx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/articles/05-where-do-you-keep-it.mdx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/articles/06-table-inspirations.mdx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layouts/post.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatsby-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-node.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-node.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Post/Post.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/navigation/navigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation/navigation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/articles/01-comfortable-bedroom.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/articles/01-comfortable-bedroom.mdx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/articles/02-dine-and-design.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/articles/02-dine-and-design.mdx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/articles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/articles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +62,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/pages" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/data/articles" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -54,6 +71,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\PROJEKT 2020\ReactFerie\Gatsby\hatta-website\src\data\articles" />
+      <recent name="D:\PROJEKT 2020\ReactFerie\Gatsby\hatta-website\src\assets\images\blog" />
       <recent name="D:\PROJEKT 2020\ReactFerie\Gatsby\hatta-website\src\pages" />
       <recent name="D:\PROJEKT 2020\ReactFerie\Gatsby\hatta-website\src\assets\images" />
     </key>
@@ -64,15 +83,13 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -92,7 +109,8 @@
       <workItem from="1614103579213" duration="9729000" />
       <workItem from="1614184233587" duration="2912000" />
       <workItem from="1614196744931" duration="3453000" />
-      <workItem from="1614270990357" duration="1054000" />
+      <workItem from="1614270990357" duration="4573000" />
+      <workItem from="1614276687456" duration="2708000" />
     </task>
     <servers />
   </component>

@@ -1,32 +1,63 @@
 import React from "react"
 import {graphql} from 'gatsby'
+import PageInfo from "../components/PageInfo/PageInfo";
+import ArticlePreview from "../components/ArticlePreview/ArticlePreview";
+import styled from 'styled-components'
 
-const ArticlesPage = ({data}) => (
-    <div>
-        <h1>Blog Page</h1>
-        <p>Welcome to Blog page</p>
-        {data.allMdx.nodes.map(item => (
-            <>
-            <h2>{item.frontmatter.title}</h2>
-            <p>{item.frontmatter.author}</p>
-                <p>{item.excerpt}</p>
-            </>
-        ) )}
-    </div>
-)
+
+const ArticlesWrapper = styled.div`
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 50px;
+`;
+
+const pageData = {
+    title: 'articles',
+    paragraph: `While artists work from real to the abstract, architects must work from the abstract to the real.`,
+};
+
+const ArticlesPage = ({data}) => {
+    const {allMdx: {nodes}} = data;
+
+    return(<div>
+        <PageInfo title={pageData.title}  paragraph={pageData.paragraph}/>
+        <ArticlesWrapper>
+            {nodes.map(({excerpt,frontmatter:{title,slug,author,featuredImage}}) => (
+                <ArticlePreview
+                    title={title}
+                    slug={slug}
+                    image={featuredImage.childImageSharp.fluid}
+                    excerpt={excerpt}
+                />
+            ) )}
+        </ArticlesWrapper>
+    </div>)
+}
+
+
+
+
 
 
 export const query = graphql`
 {
-  allMdx{
-    nodes{
-     frontmatter {
-        author
-        slug
+ allMdx {
+    nodes {
+      frontmatter {
         title
-  }
-    excerpt(pruneLength:50)
-  }
+        slug
+        author
+       featuredImage{
+        childImageSharp{
+fluid(maxWidth: 700,maxHeight: 500){
+src
+        }
+        }
+        
+      }
+      }
+      excerpt(pruneLength: 50)
+    }
   }
   }
 `;

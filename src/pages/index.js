@@ -3,7 +3,6 @@ import styled from 'styled-components'
 import Image from 'gatsby-image'
 import Button from "../components/Button/button";
 import {graphql} from "gatsby"
-import Post from "../components/Post/Post";
 
 const ContentWrapper = styled.div`
     width: 65%;
@@ -40,7 +39,6 @@ const StyledImage= styled(Image)`
 const IndexPage = ({data}) => (
     <>
         <ContentWrapper>
-            <Post/>
             <h1>Your new space</h1>
             <p>While artist work from real to the abstract, architects must work from the abstract to the real.</p>
             <Button>estimate project</Button>
