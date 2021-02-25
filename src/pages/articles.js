@@ -24,6 +24,7 @@ const ArticlesPage = ({data}) => {
         <ArticlesWrapper>
             {nodes.map(({excerpt,frontmatter:{title,slug,author,featuredImage}}) => (
                 <ArticlePreview
+                    key={slug}
                     title={title}
                     slug={slug}
                     image={featuredImage.childImageSharp.fluid}
