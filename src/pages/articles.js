@@ -23,9 +23,9 @@ const ArticlesPage = ({data}) => {
     return(<div>
         <PageInfo title={pageData.title}  paragraph={pageData.paragraph}/>
         <ArticlesWrapper>
-            {nodes.map(({title,featuredImage}) => (
+            {nodes.map(({title,featuredImage},index) => (
                 <ArticlePreview
-                    key={title}
+                    key={index}
                     title={title}
                     slug={slugify(title,{lower:true})}
                     image={featuredImage.fluid}

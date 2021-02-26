@@ -26,13 +26,15 @@ const PreviewInfoLabel = styled.div`
     margin: 5px;
   }
 
-
 `;
 
 const StyledImage = styled(Image)`
   width: 100%;
   height: 100%;
   object-fit: cover;
+
+  &:hover{filter: brightness(50%)}
+
 `;
 
 const ArticlePreview = ({title,image,slug}) => (
