@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18d73d48-de59-4259-a126-f2fd51ff8eb2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/images/abigail.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/abigail.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ArticlePreview/ArticlePreview.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ArticlePreview/ArticlePreview.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navigation/navigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation/navigation.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/about.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/about.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/articles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/articles.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,8 +94,16 @@
       <workItem from="1614346455649" duration="429000" />
       <workItem from="1614355819699" duration="3097000" />
       <workItem from="1614360971645" duration="315000" />
-      <workItem from="1614361293361" duration="14557000" />
+      <workItem from="1614361293361" duration="14655000" />
     </task>
+    <task id="LOCAL-00001" summary="test">
+      <created>1614376066747</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1614376066747</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,5 +111,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
 </project>

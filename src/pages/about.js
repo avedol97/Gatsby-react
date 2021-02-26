@@ -45,6 +45,7 @@ const AboutPage = ({data}) => (
 
 
         <StyledWrapper>
+            {console.log(data)}
             <PageInfo title={pageData.title} paragraph={pageData.paragraph}/>
             <Line/>
             {data.allDatoCmsAbout.nodes.map(items => (
